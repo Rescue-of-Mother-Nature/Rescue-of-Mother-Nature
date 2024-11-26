@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bar-cenario (1)_0: -6350972348240917374
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
