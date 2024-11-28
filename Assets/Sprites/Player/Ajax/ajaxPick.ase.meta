@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e05f2b49749b37948994b98a81432fa1
+guid: 402e47d5d6e543046b8f495a6d7846cf
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -35,7 +35,7 @@ ScriptedImporter:
     spriteMeshType: 0
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 100
+    spritePixelsToUnits: 64
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638683149015584667
+  platformSettingsDirtyTick: 638683165810471474
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -124,28 +124,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Frame_0
     originalName: 
-    pivot: {x: 0.45454547, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 136
-      width: 55
-      height: 58
-    spriteID: 0eac6e96b9f1f5543bfff0e4e41a3a6c
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 136}
-  - name: Frame_1
-    originalName: 
-    pivot: {x: 0.4137931, y: 0}
+    pivot: {x: 0.46511626, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -153,9 +132,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 58
-      height: 58
-    spriteID: 081a39134ffcdb844a27d63f8d2c3409
+      width: 43
+      height: 62
+    spriteID: 1429e68db5592584b9faaab42980b7ec
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -164,19 +143,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Frame_2
+  - name: Frame_1
     originalName: 
-    pivot: {x: 0.4137931, y: 0}
+    pivot: {x: 0.46511626, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
       x: 4
-      y: 70
-      width: 58
-      height: 58
-    spriteID: 62e2ed349ac5ed54ebf2f77d9da35cde
+      y: 74
+      width: 43
+      height: 62
+    spriteID: f9e1cfb6107cc5e48895a683ea262ef0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -184,12 +163,75 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 70}
+    uvTransform: {x: 4, y: 74}
+  - name: Frame_2
+    originalName: 
+    pivot: {x: 0.53846157, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 55
+      y: 4
+      width: 52
+      height: 50
+    spriteID: 8ed55f003576abf44a13dd473fef37f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 55, y: 4}
+  - name: Frame_3
+    originalName: 
+    pivot: {x: 0.53846157, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 55
+      y: 62
+      width: 52
+      height: 50
+    spriteID: 1340913878835d0478bc28643405ff4a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 55, y: 62}
+  - name: Frame_4
+    originalName: 
+    pivot: {x: 0.46511626, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 144
+      width: 43
+      height: 62
+    spriteID: f38150142b4c6244b8abae391ec0a878
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 144}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -2060503343
-    name: ajax-spriteCerta-atacando-com-lanca
+    guid: 771898071
+    name: ajax-spriteCerta-agachando-pergando-objeto
     layerFlags: 0
     layerType: 0
     blendMode: 0
@@ -200,27 +242,45 @@ ScriptedImporter:
       cellRect:
         x: 12
         y: 0
-        width: 55
-        height: 58
-      spriteId: 0eac6e96b9f1f5543bfff0e4e41a3a6c
+        width: 43
+        height: 62
+      spriteId: 1429e68db5592584b9faaab42980b7ec
     - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
-        x: 13
+        x: 12
         y: 0
-        width: 58
-        height: 58
-      spriteId: 081a39134ffcdb844a27d63f8d2c3409
+        width: 43
+        height: 62
+      spriteId: f9e1cfb6107cc5e48895a683ea262ef0
     - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
-        x: 13
+        x: 4
         y: 0
-        width: 58
-        height: 58
-      spriteId: 62e2ed349ac5ed54ebf2f77d9da35cde
+        width: 52
+        height: 50
+      spriteId: 8ed55f003576abf44a13dd473fef37f8
+    - name: Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 4
+        y: 0
+        width: 52
+        height: 50
+      spriteId: 1340913878835d0478bc28643405ff4a
+    - name: Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 12
+        y: 0
+        width: 43
+        height: 62
+      spriteId: f38150142b4c6244b8abae391ec0a878
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -275,4 +335,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 74, y: 64}
+  canvasSize: {x: 64, y: 64}
