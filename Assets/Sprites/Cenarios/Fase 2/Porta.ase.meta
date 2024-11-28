@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1749734d055dff044b764815145f728d
+guid: 371f74c928c639642b463dbd3472566b
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -122,9 +122,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Frame_0
+  - name: Porta
     originalName: 
-    pivot: {x: 0.47058824, y: 0}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -133,8 +133,8 @@ ScriptedImporter:
       x: 4
       y: 4
       width: 34
-      height: 55
-    spriteID: ecaf36090d7cfc44ca0570b7cc3f1e11
+      height: 49
+    spriteID: b6788694f7e91914788e6b0544d22aff
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -143,114 +143,24 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Frame_1
-    originalName: 
-    pivot: {x: 0.47058824, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 46
-      y: 4
-      width: 34
-      height: 55
-    spriteID: 163ca040339a0a3409017461e906261e
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 46, y: 4}
-  - name: Frame_2
-    originalName: 
-    pivot: {x: 0.53658533, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 67
-      width: 41
-      height: 45
-    spriteID: ac45840677f39e64cb22863d40807e48
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 67}
-  - name: Frame_3
-    originalName: 
-    pivot: {x: 0.53658533, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 53
-      y: 67
-      width: 41
-      height: 45
-    spriteID: 4ac437bf68b56a64e8ec8b0c34101316
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 53, y: 67}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1227825979
-    name: sprite-azaleia-agaichando-pegando-lixo-no-chao
+    guid: 1935451820
+    name: Porta
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Porta
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 16
+        x: 15
         y: 0
         width: 34
-        height: 55
-      spriteId: ecaf36090d7cfc44ca0570b7cc3f1e11
-    - name: Frame_1
-      frameIndex: 1
-      additiveSortOrder: 0
-      cellRect:
-        x: 16
-        y: 0
-        width: 34
-        height: 55
-      spriteId: 163ca040339a0a3409017461e906261e
-    - name: Frame_2
-      frameIndex: 2
-      additiveSortOrder: 0
-      cellRect:
-        x: 10
-        y: 0
-        width: 41
-        height: 45
-      spriteId: ac45840677f39e64cb22863d40807e48
-    - name: Frame_3
-      frameIndex: 3
-      additiveSortOrder: 0
-      cellRect:
-        x: 10
-        y: 0
-        width: 41
-        height: 45
-      spriteId: 4ac437bf68b56a64e8ec8b0c34101316
+        height: 49
+      spriteId: b6788694f7e91914788e6b0544d22aff
     linkedCells: []
     parentIndex: -1
   platformSettings:
