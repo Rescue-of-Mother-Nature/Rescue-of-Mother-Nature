@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 91b91d635e94cfb41960f0d765fe85ab
+guid: 0a4e9e074dbf3bf479bb959a7bab4867
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -124,17 +124,17 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Frame_0
     originalName: 
-    pivot: {x: 0.47727275, y: 0}
+    pivot: {x: -0.26470587, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
-      x: 4
-      y: 141
-      width: 44
-      height: 62
-    spriteID: 4f2fa033d68791948a6333a551c17a77
+      x: 77
+      y: 4
+      width: 34
+      height: 55
+    spriteID: 6b112dd9e5a31db409132da91abe75e7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,10 +142,31 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 141}
+    uvTransform: {x: 77, y: 4}
   - name: Frame_1
     originalName: 
-    pivot: {x: 0.55769235, y: 0}
+    pivot: {x: -0.26470587, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 140
+      width: 34
+      height: 55
+    spriteID: 155fc52fe826f4a4fb27e311d2190c6b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 140}
+  - name: Frame_2
+    originalName: 
+    pivot: {x: 0.16923076, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -153,9 +174,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 52
-      height: 61
-    spriteID: 91a4baa674c3c564489ad616af442608
+      width: 65
+      height: 60
+    spriteID: e66c49eb9a1c6ed4285bcf385e5b7965
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -164,19 +185,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Frame_2
+  - name: Frame_3
     originalName: 
-    pivot: {x: 0.5106383, y: 0}
+    pivot: {x: 0.16923076, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
       x: 4
-      y: 73
-      width: 47
+      y: 72
+      width: 65
       height: 60
-    spriteID: 76b297855e2736d4f8520ecb6761d43d
+    spriteID: 386153f7422fe234ea7a070d060b788b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -184,12 +205,12 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 73}
+    uvTransform: {x: 4, y: 72}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 807829569
-    name: ajax-spriteCerta-andando (1)
+    guid: 273885909
+    name: azaleia-chute
     layerFlags: 0
     layerType: 0
     blendMode: 0
@@ -198,29 +219,38 @@ ScriptedImporter:
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 11
+        x: 66
         y: 0
-        width: 44
-        height: 62
-      spriteId: 4f2fa033d68791948a6333a551c17a77
+        width: 34
+        height: 55
+      spriteId: 6b112dd9e5a31db409132da91abe75e7
     - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
-        x: 3
+        x: 66
         y: 0
-        width: 52
-        height: 61
-      spriteId: 91a4baa674c3c564489ad616af442608
+        width: 34
+        height: 55
+      spriteId: 155fc52fe826f4a4fb27e311d2190c6b
     - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
-        x: 8
+        x: 46
         y: 0
-        width: 47
+        width: 65
         height: 60
-      spriteId: 76b297855e2736d4f8520ecb6761d43d
+      spriteId: e66c49eb9a1c6ed4285bcf385e5b7965
+    - name: Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 46
+        y: 0
+        width: 65
+        height: 60
+      spriteId: 386153f7422fe234ea7a070d060b788b
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -239,4 +269,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 64, y: 64}
+  canvasSize: {x: 114, y: 64}

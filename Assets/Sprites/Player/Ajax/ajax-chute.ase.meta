@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 91b91d635e94cfb41960f0d765fe85ab
+guid: d214bb9b5ede1684892934753406949d
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -124,17 +124,17 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Frame_0
     originalName: 
-    pivot: {x: 0.47727275, y: 0}
+    pivot: {x: -0.1162791, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
     rect:
       serializedVersion: 2
-      x: 4
-      y: 141
-      width: 44
+      x: 76
+      y: 4
+      width: 43
       height: 62
-    spriteID: 4f2fa033d68791948a6333a551c17a77
+    spriteID: 6df0122e5210e8749ab9b79194e00f93
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,10 +142,10 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 141}
+    uvTransform: {x: 76, y: 4}
   - name: Frame_1
     originalName: 
-    pivot: {x: 0.55769235, y: 0}
+    pivot: {x: 0.15624999, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -153,9 +153,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 52
-      height: 61
-    spriteID: 91a4baa674c3c564489ad616af442608
+      width: 64
+      height: 60
+    spriteID: 1af616079c6e8c94b803835c0fd8d2e4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -164,32 +164,11 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Frame_2
-    originalName: 
-    pivot: {x: 0.5106383, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 73
-      width: 47
-      height: 60
-    spriteID: 76b297855e2736d4f8520ecb6761d43d
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 73}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 807829569
-    name: ajax-spriteCerta-andando (1)
+    guid: 171022600
+    name: ajax-chute
     layerFlags: 0
     layerType: 0
     blendMode: 0
@@ -198,29 +177,20 @@ ScriptedImporter:
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 11
+        x: 62
         y: 0
-        width: 44
+        width: 43
         height: 62
-      spriteId: 4f2fa033d68791948a6333a551c17a77
+      spriteId: 6df0122e5210e8749ab9b79194e00f93
     - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
-        x: 3
+        x: 47
         y: 0
-        width: 52
-        height: 61
-      spriteId: 91a4baa674c3c564489ad616af442608
-    - name: Frame_2
-      frameIndex: 2
-      additiveSortOrder: 0
-      cellRect:
-        x: 8
-        y: 0
-        width: 47
+        width: 64
         height: 60
-      spriteId: 76b297855e2736d4f8520ecb6761d43d
+      spriteId: 1af616079c6e8c94b803835c0fd8d2e4
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -239,4 +209,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 64, y: 64}
+  canvasSize: {x: 114, y: 64}
