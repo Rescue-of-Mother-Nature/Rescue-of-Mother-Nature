@@ -15,7 +15,7 @@ public class Player1 : MonoBehaviour
 
     private bool playerFacingRight = true;
 
-    
+    private bool isWalking;
 
 
     void Start()
@@ -33,6 +33,16 @@ public class Player1 : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (playerDirection.x != 0 || playerDirection.y != 0)
+        {
+            isWalking = true;
+        }
+        else
+        {
+            isWalking = false;
+        }
+
+
         playerRigidBody2D.MovePosition(playerRigidBody2D.position + playerSpeed * Time.fixedDeltaTime * playerDirection);
     }
 
