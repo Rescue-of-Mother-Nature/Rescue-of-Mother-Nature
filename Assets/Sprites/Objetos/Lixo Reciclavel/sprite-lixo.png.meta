@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sprite-lixo_0: -9005240520110335687
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

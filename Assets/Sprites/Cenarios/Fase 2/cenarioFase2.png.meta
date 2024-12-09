@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cenarioFase2_0: 9024416104309552698
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

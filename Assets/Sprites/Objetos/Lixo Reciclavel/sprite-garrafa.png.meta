@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sprite-garrafa_0: -8828276257805224550
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

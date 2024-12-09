@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sprite-garrafaQuebrada_0: 8831946535953518227
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
