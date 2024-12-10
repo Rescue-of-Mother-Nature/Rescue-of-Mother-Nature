@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d1a344d32ea74dd45b1e94f94ba24472
+guid: 930adacf31597564795a4aa9c7d113a5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5029967816674332665
-    second: "534 Sem T\xEDtulo_20241209192227_0"
+      213: -6922806991123567858
+    second: background-rescue-of-mother-nature_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "534 Sem T\xEDtulo_20241209192227_0"
+      name: background-rescue-of-mother-nature_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 96
-        width: 466
-        height: 340
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 700ba7fabe6f13ab0800000000000000
-      internalID: -5029967816674332665
+      spriteID: e0b2d7d58bf3def90800000000000000
+      internalID: -6922806991123567858
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "534 Sem T\xEDtulo_20241209192227_0": -5029967816674332665
+      background-rescue-of-mother-nature_0: -6922806991123567858
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
