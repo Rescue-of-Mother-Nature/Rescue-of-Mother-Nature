@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem.Processors;
 
 public class PlayerController : MonoBehaviour
 {
@@ -19,6 +20,9 @@ public class PlayerController : MonoBehaviour
 
     // variavel para o personagem olhar para o lado certo
     private bool isFacingRight = true;
+
+    // Variavel que verifica se o player está morto
+    public bool isDead;
 
     // variavel para controlar o rigidBody (usado para movimentação do player)
     private Rigidbody2D playerRigidbody;
@@ -56,6 +60,8 @@ public class PlayerController : MonoBehaviour
         // atualizando a animação da movimentação do player
         UpdateAnimator();
 
+        PlayerDefending();
+
         // golpe especial jab/kick
         if (Input.GetKeyDown(KeyCode.F))
         {
@@ -78,12 +84,17 @@ public class PlayerController : MonoBehaviour
             }
             StopCoroutine(Combo());
         }
-
-        if (Input.GetKeyDown(KeyCode.G))
+        //Se eu estiver pressionando a tecla g ele defende 
+        if (Input.GetKey(KeyCode.K))
         {
             isDefending = true;
-            PlayerDefending();
+            
         }
+        else
+        {
+            isDefending = false;
+        }
+       
 
     }
     //Corrotina golpe especial kick
@@ -156,6 +167,18 @@ public class PlayerController : MonoBehaviour
     void PlayerDefending()
     {
         playerAnimator.SetBool("isDefending", isDefending);
+    }
+
+    void TakeDamage(int damage)
+    {
+        if (!isDead)
+        {
+            currentHealth -= damage;
+            playerAnimator.SetTrigger("hitDamage");
+
+            FindFirstObjectByType<UIManager>().UpdatePlayerHealth(currentHealth);
+
+        }
     }
 
 
