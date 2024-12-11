@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -7,6 +9,13 @@ public class PlayerController : MonoBehaviour
 
     // variavel de trigger de animação
     private bool isWalking;
+    private bool isDefending;
+
+    // variavel golpe especial kick
+    private int punchCount;
+    private bool comboControl;
+    //tempo do combo kick
+    private float timeCross = 2.12f;
 
     // variavel para o personagem olhar para o lado certo
     private bool isFacingRight = true;
@@ -39,14 +48,51 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    
+
     void Update()
     {
         // atualizando a movimentação do player
         PlayerMove();
         // atualizando a animação da movimentação do player
+        UpdateAnimator();
 
+        // golpe especial jab/kick
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            // se o punchCount variavel de contagem para o golpe especial,
+            // for menor que dois ele irá somar, quando ela chegar em dois o golpe especial (kick) é ativado
+            if (punchCount < 2)
+            {
+                PlayerPunch();
+                punchCount++;
 
+                if (!comboControl)
+                {
+                    StartCoroutine(Combo());
+                }
+            }
+            else
+            {
+                PlayerKick();
+                punchCount = 0;
+            }
+            StopCoroutine(Combo());
+        }
+
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            isDefending = true;
+            PlayerDefending();
+        }
+
+    }
+    //Corrotina golpe especial kick
+    IEnumerator Combo()
+    {
+        comboControl = true;
+        yield return new WaitForSeconds(timeCross);
+        punchCount = 0;
+        comboControl = false;
     }
 
     void FixedUpdate()
@@ -58,7 +104,7 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            isWalking= false;
+            isWalking = false;
         }
 
         // finalmente movimentando o personagem, adicionando a ele a velocidade atual com uma matematica
@@ -81,13 +127,35 @@ public class PlayerController : MonoBehaviour
             Flip();
         }
     }
-    
+
     // Função para virar o inimigo para o lado oposto
     void Flip()
     {
         isFacingRight = !isFacingRight;
 
-        transform.Rotate(0,180,0);
+        transform.Rotate(0, 180, 0);
+    }
+
+    void UpdateAnimator()
+    {
+        playerAnimator.SetBool("isWalking", isWalking);
+    }
+
+
+    //void player punch
+    void PlayerPunch()
+    {
+        playerAnimator.SetTrigger("punch");
+    }
+    // void do golpe especial kick
+    void PlayerKick()
+    {
+        playerAnimator.SetTrigger("kick");
+    }
+
+    void PlayerDefending()
+    {
+        playerAnimator.SetBool("isDefending", isDefending);
     }
 
 
