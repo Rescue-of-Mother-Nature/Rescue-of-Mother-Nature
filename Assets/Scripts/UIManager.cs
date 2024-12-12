@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.UIElements;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
@@ -28,10 +28,9 @@ public class UIManager : MonoBehaviour
 
         // Definir o barra de vida ao maximo do jogador
 
+        playerHealthBar.maxValue = player.maxHealth;
+        playerHealthBar.value = playerHealthBar.maxValue;
 
-        //playerHealthBar.maxValue = player.maxHealth
-        //playerHealthBar.value = playerHealthBar.maxValue;
-            
 
 
     }
@@ -46,6 +45,21 @@ public class UIManager : MonoBehaviour
     public void UpdatePlayerHealth(int amount)
     {
         playerHealthBar.value = amount;
+    }
+
+    // Para atualizar os elementos UI do inimigo
+    public void UpdateEnemyUI(int maxHealth, int currentHealth, Sprite Image)
+    {
+        // Atualiza os dados do inimigo de acordo com o inimigo atacado
+        enemyHealthBar.maxValue = maxHealth;
+        enemyHealthBar.value = currentHealth;
+        enemyImage.sprite = Image;
+
+        // Zera o timer para começar a conta os 4 segundos
+        enemyTimer = 0;
+
+        // enemyUI fica habilitada, deixando ela visível
+        enemyUI.SetActive(true);
     }
 
 

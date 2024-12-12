@@ -15,22 +15,18 @@ public class Attack : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+  
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        //PlayerController player = collision.GetComponent<PlayerController>();
+        PlayerController player = collision.GetComponent<PlayerController>();
 
-        //EnemyController enemy = collision.GetComponent<EnemyMeleeController>();
+        
 
-        //if (player != null)
-        //{
-        //    player.TakeDamage(damage);
-        //}
-
-        //if (enemy != null)
-        //{
-        //    enemy.TakeDamage(damage);
-        //}
-
+        if (player != null)
+        {
+            player.TakeDamage(damage);
+        }
 
     }
 }

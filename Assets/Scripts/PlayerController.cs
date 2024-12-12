@@ -88,13 +88,15 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.K))
         {
             isDefending = true;
-            
+            ZeroSpeed();
+
         }
         else
         {
             isDefending = false;
+            ResetSpeed();
         }
-       
+
 
     }
     //Corrotina golpe especial kick
@@ -169,16 +171,28 @@ public class PlayerController : MonoBehaviour
         playerAnimator.SetBool("isDefending", isDefending);
     }
 
-    void TakeDamage(int damage)
+    public void TakeDamage(int damage)
     {
-        if (!isDead)
+        //se o player estiver vivo e ele nao estiver defendendo ele recebe dano
+        if (!isDead && isDefending == false)
         {
             currentHealth -= damage;
             playerAnimator.SetTrigger("hitDamage");
 
+
             FindFirstObjectByType<UIManager>().UpdatePlayerHealth(currentHealth);
 
         }
+    }
+
+    void ZeroSpeed()
+    {
+        currentSpeed = 0;
+    }
+
+    void ResetSpeed() 
+    {
+        currentSpeed = maxSpeed;
     }
 
 
