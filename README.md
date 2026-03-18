@@ -2,6 +2,8 @@
 
 # 🌱 Sustainable Beat 'Em Up – 2D Game Project
 
+<div><img src="./imgReadme.jpeg"></div>
+
 ## 🎮 About the Project | Sobre o Projeto
 
 ### 🇺🇸 English
@@ -93,26 +95,6 @@ In addition to the artistic and conceptual direction, I was responsible for:
 - Enemy behavior logic
 - Scene organization and structure inside Unity
 - Basic state control for animations
-
----
-
-# 📸 Project Preview | Imagens do Projeto
-
-## Gameplay
-
-![Gameplay Screenshot](./images/gameplay.png)
-
-## Characters
-
-![Character Sprite Sheet](./images/characters.png)
-
-## Level Design
-
-![Level Layout](./images/level-design.png)
-
-## Cutscene Example
-
-![Cutscene Screenshot](./images/cutscene.png)
 
 ---
 
